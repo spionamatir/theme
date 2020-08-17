@@ -40,7 +40,7 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   setTimeout(function(){
     $(".loader-logo").removeClass('fadeIn').addClass('fadeOut');
-  },6000);
+  },600);
 
   setTimeout(function(){
     $('body').removeClass('overflow-hidden');
